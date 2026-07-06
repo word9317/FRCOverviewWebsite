@@ -7,7 +7,21 @@
     <title>FRC Overview</title>
   </head>
   <body>
-    <div id="app"></div>
-    hi
+    <div id="app">
+      <header>
+        <h1>FRC Team Search</h1>
+      </header>
+      <main>
+        <div class="search-container">
+          <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Search by team number or name..." />
+            <button id="searchBtn">Search</button>
+          </div>
+        </div>
+        <div id="status"></div>
+        <div id="results"></div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
