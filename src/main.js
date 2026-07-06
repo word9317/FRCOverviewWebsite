@@ -47,6 +47,11 @@ function renderTeam(team) {
     ${team.city ? `<p><strong>Location:</strong> ${team.city}, ${team.state_prov}, ${team.country}</p>` : ''}
     ${team.website ? `<p><strong>Website:</strong> <a href="${team.website}" target="_blank">${team.website}</a></p>` : ''}
     ${team.rookie_year ? `<p><strong>Rookie Year:</strong> ${team.rookie_year}</p>` : ''}
+    <div style="margin-top: 1rem;">
+      <a href="detail.html?team=frc${team.team_number}" class="detail-btn" style="display: inline-block; padding: 0.5rem 1rem; background-color: #007bff; color: white; text-decoration: none; border-radius: 4px;">
+        View Details & Media
+      </a>
+    </div>
   `;
   return card;
 }
