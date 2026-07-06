@@ -1,6 +1,6 @@
 # FRC Overview Website
 A website to view statistics about FRC teams
-![Searching teams with number](image.png)
+![Searching teams with number](assets/searchfunction.png)
 Live demo available on [Github Pages](https://word9317.github.io/FRCOverviewWebsite/)
 ## Features
  - Search teams by team number or by name
