@@ -31,7 +31,7 @@ jobs:
 
       - run: npm run build
         env:
-          XTBAAUTHKEY: ${{ secrets.XTBAAUTHKEY }}
+          VITE_AUTHKEY: ${{ secrets.XTBAAUTHKEY }}
 
       - uses: actions/configure-pages@v5
 
