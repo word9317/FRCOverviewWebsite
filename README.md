@@ -4,17 +4,20 @@ A website to view statistics about FRC teams
 Live demo available on [Github Pages](https://word9317.github.io/FRCOverviewWebsite/)
 ## Features
  - Search teams by team number or by name
+ - Details page that has pictures
 
 ## Techstack
 * HTML
 * JS
 * CSS
+* Vite
+* TheBlueAlliance API v3
 > idk what im doing since i come from normal html, js, css. vite is kinda confusing
 
 ## Usage
 1. Clone gh repo
 ```
-git clone https://word9317.github.io/FRCOverviewWebsite/
+git clone https://github.com/word9317/FRCOverviewWebsite.git
 cd FRCOverviewWebsite
 ```
 2. Node stuff
