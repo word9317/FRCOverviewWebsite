@@ -1,20 +1,23 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Placeholder</title>
-</head>
-<body>
-    <div id="detail-app" style="padding: 2rem; max-width: 800px; margin: 0 auto;">
-    <a href="index.html" style="text-decoration: none; color: #007bff;">← Back to Search</a>
-    
-    <h1 id="team-title">Loading Team...</h1>
-    <div id="team-info"></div>
-    
-    <hr style="margin: 2rem 0;">
-    
-    <h2>Robot Media & Photos</h2>
-    <div id="media-gallery" style="display: flex; gap: 15px; flex-wrap: wrap;"></div>
-  </div>
-  <script type="module" src="/src/detail.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRC Team Detail</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <div id="detail-app">
+      <a href="index.html" class="detail-back">← Back to Search</a>
+      <div class="detail-header">
+        <h1 id="team-title">Loading Team...</h1>
+        <div id="team-info" class="detail-meta"></div>
+      </div>
+      <section class="media-section">
+        <h2>Robot Media & Photos</h2>
+        <div id="media-gallery" class="media-grid"></div>
+      </section>
+    </div>
+    <script type="module" src="/src/detail.js"></script>
+  </body>
+</html>
